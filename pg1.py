@@ -9,5 +9,7 @@ def changeme( mylist ):
 
 # Now you can call changeme function
 mylist = [10,20,30];
+print "Values outside before the function call: ", mylist
+
 changeme( mylist );
-print "Values outside the function: ", mylist
+print "Values outside after the function call: ", mylist
